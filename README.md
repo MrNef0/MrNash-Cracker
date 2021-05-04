@@ -1,4 +1,4 @@
-# MrNash-Cracker
+# MrNash Cracker
 ![alt text](https://github.com/MrNef0/MrNash-Cracker/blob/main/logo.png) 
 
 GUI tool for cracking MD5 & SHA-1 hashes using wordlists.
