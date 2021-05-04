@@ -11,7 +11,7 @@ GUI tool for cracking MD5 & SHA-1 hashes using wordlists
 
 
 # Author
-### Naif Hussain
+## Naif Hussain
 
 ##### [Twitter](https://twitter.com/MrNef0)
 
@@ -19,4 +19,4 @@ GUI tool for cracking MD5 & SHA-1 hashes using wordlists
 ##### [LinkedIn](https://www.linkedin.com/in/naif-hussain/)
 
 
-##### Email: MrNefo2000@Gmail.Com
+##### Email: mrnefo2000@gmail.com
