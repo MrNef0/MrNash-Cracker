@@ -13,7 +13,7 @@ MrNash Cracker is a GUI tool for cracking MD5 & SHA-1 password hashes using word
 
 # Important Notes
 
-- To achieve the best experience, **MrNash-Cracker.jar** must be in the same directory with **images** folder.
+- To achieve the best experience, **MrNash-Cracker.jar** must be in the same directory/folder with **images** folder.
 - For now, MrNash Cracker accepts only the first 1,000,000 lines of any wordlist (or less).
 - Slow computers may reduce the tool speed.
 
