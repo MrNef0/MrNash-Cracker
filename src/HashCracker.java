@@ -68,7 +68,7 @@ public class HashCracker extends JFrame implements ActionListener {
         f.setLocation(1000, 400);
         f.setSize(505, 650);
         f.setVisible(true);
-        ImageIcon icon2 = new ImageIcon("images\\MRNASH-LOGOR.png");
+        ImageIcon icon2 = new ImageIcon("images/MRNASH-LOGOR.png");
         f.setIconImage(icon2.getImage());
     }
 
@@ -89,7 +89,6 @@ public class HashCracker extends JFrame implements ActionListener {
                     HashPassArray.add(s);
                     input.nextLine();
                 }
-                System.out.println(HashPassArray);
 
             } catch (Exception e) {
                 t2.setText("Console:\n");
@@ -102,8 +101,6 @@ public class HashCracker extends JFrame implements ActionListener {
                     for (int y = 0; y < md5rockyouarray.toArray().length; y++) {
                         if (HashPassArray.get(i).equals(md5rockyouarray.get(y))) {
                             t2.append("1 MD5 password cracked :\n");
-                            System.out.println("1 MD5 password cracked:");
-                            System.out.println("Cracked!, Hash is " + HashPassArray.get(i) + " and the cracked hash is " + rockyouarray.get(y));
                             t2.append("Cracked!, Hash is " + HashPassArray.get(i) + " and the cracked hash is " + rockyouarray.get(y) + "\n");
                             defaultTableModel.insertRow(0, new Object[]{HashPassArray.get(i), rockyouarray.get(y)});
                             break;
@@ -113,8 +110,6 @@ public class HashCracker extends JFrame implements ActionListener {
                     for (int y = 0; y < sha1rockyouarray.toArray().length; y++) {
                         if (HashPassArray.get(i).equals(sha1rockyouarray.get(y))) {
                             t2.append("1 SHA-1 password cracked :\n");
-                            System.out.println("1 SHA-1 password cracked:");
-                            System.out.println("Cracked!, Hash is " + HashPassArray.get(i) + " and the cracked hash is " + rockyouarray.get(y));
                             t2.append("Cracked!, Hash is " + HashPassArray.get(i) + " and the cracked hash is " + rockyouarray.get(y) + "\n");
                             defaultTableModel.insertRow(0, new Object[]{HashPassArray.get(i), rockyouarray.get(y)});
                             break;
@@ -132,13 +127,10 @@ public class HashCracker extends JFrame implements ActionListener {
             choosefile2.showOpenDialog(null);
             file2 = choosefile2.getSelectedFile();
             try {
-              
+
                 rockyoulist(file2);
                 md5rockyoulist(file2);
                 sha1rockyoulist(file2);
-                System.out.println(rockyouarray);
-                System.out.println(md5rockyouarray);
-                System.out.println(sha1rockyouarray);
                 t2.append("\nLoading...");
                 t2.append("\nWordlist loaded successfully");
             } catch (Exception e) {
