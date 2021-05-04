@@ -4,8 +4,8 @@ import java.awt.event.*;
 import java.net.URL;
 
 public class MrNashCracker extends JFrame implements ActionListener {
-    
-    ImageIcon crack1 = new ImageIcon("images\\MRNASH-MAIN2.png");
+
+    ImageIcon crack1 = new ImageIcon("images/MRNASH-MAIN2.png");
     JLabel l2 = new JLabel(crack1);
     JLabel account = new JLabel("Twitter: @MrNef0");
     JLabel account2 = new JLabel("Linkedin: https://www.linkedin.com/in/naif-hussain/");
@@ -33,14 +33,14 @@ public class MrNashCracker extends JFrame implements ActionListener {
     }
 
     public static void main(String[] args) throws Exception {
-        
+
         MrNashCracker f = new MrNashCracker();
         f.setTitle("MrNash Cracker");
         f.setForeground(Color.RED);
         f.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         f.setSize(505, 530);
         f.setVisible(true);
-        ImageIcon icon2 = new ImageIcon("images\\MRNASH-LOGOB.png");
+        ImageIcon icon2 = new ImageIcon("images/MRNASH-LOGOB.png");
         f.setIconImage(icon2.getImage());
     }
 
