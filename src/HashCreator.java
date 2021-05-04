@@ -76,17 +76,17 @@ public class HashCreator extends JFrame implements ActionListener {
     }
 
     public static void main(String[] args) {
-        HashCreator obj = new HashCreator();  
-        Class class1 = obj.getClass();  
-        URL url = class1.getResource("images\\MRNASH-LOGOG.png"); 
-        
+        HashCreator obj = new HashCreator();
+        Class class1 = obj.getClass();
+        URL url = class1.getResource("images/MRNASH-LOGOG.png");
+
         HashCreator f = new HashCreator();
         f.setTitle("Hash Creator");
         f.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
         f.setLocation(600, 400);
         f.setSize(500, 500);
         f.setVisible(true);
-        ImageIcon icon2 = new ImageIcon("images\\MRNASH-LOGOG.png");
+        ImageIcon icon2 = new ImageIcon("images/MRNASH-LOGOG.png");
         f.setIconImage(icon2.getImage());
         new HashCreator();
     }
@@ -108,7 +108,7 @@ public class HashCreator extends JFrame implements ActionListener {
                 } catch (Exception e) {
 
                 }
-                
+
             } else if (rSHA1.isSelected()) {
                 try {
                     addRows(sha1hash(string.getText()));
@@ -117,16 +117,16 @@ public class HashCreator extends JFrame implements ActionListener {
                 } catch (Exception e) {
 
                 }
-                
+
             } else {
                 JOptionPane.showMessageDialog(null, "Make sure you entered credentials correctly", "Error", 2);
             }
-            
+
             if ((rSHA1.isSelected() || rMD5.isSelected()) == boof) {
                 JOptionPane.showMessageDialog(null, "You must select at least 1 hash algorithm", "Hash Algorithm Error", 2);
             }
         }
-        
+
         try {
             if (x.getSource() == deleteBtn) {
                 defaultTableModel.removeRow(hpTable.getSelectedRow());
