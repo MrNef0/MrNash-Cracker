@@ -1,7 +1,7 @@
 # MrNash Cracker
 ![alt text](https://github.com/MrNef0/MrNash-Cracker/blob/main/header.png) 
 
-##### MrNash Cracker is a GUI tool for cracking MD5 & SHA-1 password hashes using wordlists (Dictionary Attack). MrNash Cracker name inspired by my name **Naif + Hash Cracker**
+MrNash Cracker is a GUI tool for cracking MD5 & SHA-1 password hashes using wordlists (Dictionary Attack). MrNash Cracker name inspired by my name **Naif + Hash Cracker**
 
 
 # Screenshots
