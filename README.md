@@ -13,10 +13,10 @@ GUI tool for cracking MD5 & SHA-1 hashes using wordlists
 # Author
 ### Naif Hussain
 
-[Twitter](https://twitter.com/MrNef0)
+##### [Twitter](https://twitter.com/MrNef0)
 
 
-[LinkedIn](https://www.linkedin.com/in/naif-hussain/)
+##### [LinkedIn](https://www.linkedin.com/in/naif-hussain/)
 
 
-#### Email: MrNefo2000@Gmail.Com
+##### Email: MrNefo2000@Gmail.Com
