@@ -27,4 +27,4 @@ MrNash Cracker is a GUI tool for cracking MD5 & SHA-1 password hashes using word
 ##### [LinkedIn](https://www.linkedin.com/in/naif-hussain/)
 
 
-##### Email: mrnefo2000@gmail.com
+##### Email: naif.hussain0@gmail.com
